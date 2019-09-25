@@ -24,3 +24,7 @@ hooks:
     - location: scripts/status_service.sh
       timeout: 3600
       runas: root
+
+  AfterAllowTraffic:
+    - location: Scripts/CodeDeployBG.sh
+      timeout: 3600
